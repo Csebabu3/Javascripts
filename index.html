@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="demo"></p>
+   <script>document.getElementById("demo").innerHTML=5+9;</script>
+   <script>document.write(5+8);</script>
+   <button type="button" onclick="document.write(5+7)">click here</button>
+ <script>
+     window.alert(7+9);
+ </script>
+  <script>
+   alert(7+9);
+</script>
+<script>
+    console.log(7+6);
+</script>
+<button onclick="window.print()">click here</button>
+<p id="demo1"></p>
+<script>
+    let number1=5;
+    let number2=8;
+    let result=number1 + number2;
+
+    Document.getElementById(demo1).innerHTML=result;
+</script>
+<p id="demo2"></p>
+<script>
+    document.getElementById("demo2").innerHTML=80.0;
+</script>
+<p id="demo3"></p>
+<script>
+    let x;
+    x=8;
+    document.getElementById("demo3").innerHTML=x;
+</script>
+<p id="demo4"></p>
+<script>
+    x=5;
+    y=6;
+    z=7;
+    result=(5+6)*7;
+    document.getElementById("demo4").innerHTML=result;
+</script>
+<p id="demo8"></p>
+<script>
+    var y;
+    y = 8;
+    document.getElementById("demo8").innerHTML= y * 10;
+</script>
+<p id="demo5"></p>
+<script>
+    let a,s;
+    a=7+5;
+    s=a*10;
+    document.getElementById("demo5").innerHTML=s;
+</script>
+<p id="demo6"></p>
+<script>
+    let fname,lname;
+    fname="raj";
+    lname="kumar";
+    document.getElementById("demo6").innerHTML=fname;
+</script>
+<p id="demo9"></p>
+<script>
+    let person="kavi",mobile="vivo",age=29;
+    document.getElementById("demo9").innerHTML=mobile;
+</script>
+<p id="demo0"></p>
+<script>
+    function myfunction(p1,p2){
+        return p1*p2;
+    }
+    document.getElementById("demo0").innerHTML=myfunction(7,6);
+</script>
+<p id="demo10"></p>
+<script>
+    var k=myfunction(4,8);
+document.getElementById("demo10").innerHTML=k;
+function myfunction(c1,c2){
+    return c1*c2;
+}
+
+</script>
+<p id="para"></p>
+<script>
+    const student={
+        stufname:"arun",
+        stulname:"kumar",
+        stuage:26,
+        sturollno:11,
+        subobjet:{
+            fathername:"suresh",
+            mothername:"roki",
+
+        }
+    };
+    document.getElementById("para").innerHTML=student["stufname"] +"  " + student["stulname"]+""+ student.stuage+"years young man";
+
+console.log(student.subobjet.fathername);
+    
+</script>
+</body>
+</html>
